@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<h3 class="login-box-msg">datos de Acceso</h3>        
+<h3 class="login-box-msg">Ingrese sus datos de Acceso</h3>        
         <form role="form" method="POST" action="{{ route('login') }}">
           {{ csrf_field() }}
           <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">

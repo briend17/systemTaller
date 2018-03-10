@@ -22,7 +22,7 @@
 <body class="hold-transition skin-red login-page">
     <div class="login-box">
         <div class="login-logo">
-            <a href="/"><b>pruebaa system taller</b></a>
+            <a href="/"><b>Taller System</b></a>
         </div><!-- /.login-logo -->
         <div class="login-box-body">        
             @yield('content')
